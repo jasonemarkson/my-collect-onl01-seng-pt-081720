@@ -7,3 +7,6 @@ def my_collect(languages)
 end 
   collection
 end
+
+yield(languages) do |language| language.upcase
+end
