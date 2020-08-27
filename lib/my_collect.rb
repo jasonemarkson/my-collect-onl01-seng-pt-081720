@@ -5,7 +5,7 @@ def my_collect(empty_array)
     collection << yield(empty_array[i])
     i += 1 
   end
-  return collection
+  collection
 end
 
 my_collect(empty_array) {|name| name.split(" ").first}
