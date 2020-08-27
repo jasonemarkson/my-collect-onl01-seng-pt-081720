@@ -8,4 +8,3 @@ end
   collection
 end
 
-yield(collection) { |language| language.upcase }
