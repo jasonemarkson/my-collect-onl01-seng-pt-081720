@@ -8,7 +8,5 @@ def my_collect(empty_array)
   return collection
 end
 
-my_collect(empty_array) do |name| 
-  name.split(" ").first 
-end
+my_collect(empty_array) {|name| name.split(" ").first}
 
