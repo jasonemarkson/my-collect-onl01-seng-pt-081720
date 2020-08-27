@@ -8,5 +8,4 @@ end
   collection
 end
 
-yield(languages) do |language| language.upcase
-end
+yield(languages) { |language| language.upcase }
