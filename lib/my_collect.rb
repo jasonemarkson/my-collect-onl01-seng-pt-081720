@@ -4,6 +4,7 @@ def my_collect(empty_array)
   collection = []
     collection << yield(empty_array[i])
     i += 1 
-  end 
+  end
+  return collection
 end
 
